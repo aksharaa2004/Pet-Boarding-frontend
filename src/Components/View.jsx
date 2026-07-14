@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
+import NavBar from './NavBar'
 
 const View = () => {
 
@@ -27,7 +28,7 @@ const View = () => {
 
     return (
         <div>
-
+            <NavBar/>
             <h1 className="text-center mt-3">View Pet Bookings</h1>
 
             <div className="container">
