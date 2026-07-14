@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import NavBar from './NavBar'
 
 
 const Add = () => {
@@ -39,7 +40,7 @@ const Add = () => {
 
     return (
         <div>
-     
+            <NavBar/>
 
             <h1 className="text-center mt-3">Add Pet Booking</h1>
 
